@@ -1,0 +1,12 @@
+G:\VS\VS框架\自写框架\FineAdmin\FineAdmin.Model\obj\Debug\netstandard2.0\FineAdmin.Model.csprojAssemblyReference.cache
+G:\VS\VS框架\自写框架\FineAdmin\FineAdmin.Model\obj\Debug\netstandard2.0\FineAdmin.Model.AssemblyInfoInputs.cache
+G:\VS\VS框架\自写框架\FineAdmin\FineAdmin.Model\obj\Debug\netstandard2.0\FineAdmin.Model.AssemblyInfo.cs
+G:\VS\VS框架\自写框架\FineAdmin\FineAdmin.Model\obj\Debug\netstandard2.0\FineAdmin.Model.csproj.CoreCompileInputs.cache
+G:\VS\VS框架\自写框架\FineAdmin\FineAdmin.Model\bin\Debug\netstandard2.0\FineAdmin.Model.deps.json
+G:\VS\VS框架\自写框架\FineAdmin\FineAdmin.Model\bin\Debug\netstandard2.0\FineAdmin.Model.dll
+G:\VS\VS框架\自写框架\FineAdmin\FineAdmin.Model\bin\Debug\netstandard2.0\FineAdmin.Model.pdb
+G:\VS\VS框架\自写框架\FineAdmin\FineAdmin.Model\obj\Debug\netstandard2.0\FineAdmin.Model.dll
+G:\VS\VS框架\自写框架\FineAdmin\FineAdmin.Model\obj\Debug\netstandard2.0\FineAdmin.Model.pdb
+G:\VS\VS框架\自写框架\FineAdmin\FineAdmin.Model\bin\Debug\netstandard2.0\DapperExtensions.dll
+G:\VS\VS框架\自写框架\FineAdmin\FineAdmin.Model\bin\Debug\netstandard2.0\DapperExtensions.pdb
+G:\VS\VS框架\自写框架\FineAdmin\FineAdmin.Model\obj\Debug\netstandard2.0\FineAdmin.Model.csproj.CopyComplete

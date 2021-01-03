@@ -1,0 +1,33 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using FineAdmin.Model;
+
+namespace FineAdmin.IService
+{
+    public interface IUserService : IBaseService<UserModel>
+    {
+        /// <summary>
+        /// 登录
+        /// </summary>
+        /// <param name="username"></param>
+        /// <param name="password"></param>
+        /// <returns></returns>
+        UserModel LoginOn(string username, string password);
+        /// <summary>
+        /// 修改密码
+        /// </summary>
+        /// <param name="model"></param>
+        /// <param name="userId"></param>
+        /// <returns></returns>
+        int ModifyUserPwd(ModifyPwd model, int userId);
+        /// <summary>
+        /// 根据用户名查找用户信息
+        /// </summary>
+        /// <param name="username">登录账号</param>
+        /// <returns></returns>
+        UserModel GetByUsername(string username);
+    }
+}

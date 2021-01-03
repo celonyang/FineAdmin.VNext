@@ -1,0 +1,16 @@
+G:\VS\VS框架\自写框架\FineAdmin\FineAdmin.IRepository\obj\Debug\netstandard2.0\FineAdmin.IRepository.csprojAssemblyReference.cache
+G:\VS\VS框架\自写框架\FineAdmin\FineAdmin.IRepository\obj\Debug\netstandard2.0\FineAdmin.IRepository.AssemblyInfoInputs.cache
+G:\VS\VS框架\自写框架\FineAdmin\FineAdmin.IRepository\obj\Debug\netstandard2.0\FineAdmin.IRepository.AssemblyInfo.cs
+G:\VS\VS框架\自写框架\FineAdmin\FineAdmin.IRepository\obj\Debug\netstandard2.0\FineAdmin.IRepository.csproj.CoreCompileInputs.cache
+G:\VS\VS框架\自写框架\FineAdmin\FineAdmin.IRepository\bin\Debug\netstandard2.0\FineAdmin.IRepository.deps.json
+G:\VS\VS框架\自写框架\FineAdmin\FineAdmin.IRepository\bin\Debug\netstandard2.0\FineAdmin.IRepository.dll
+G:\VS\VS框架\自写框架\FineAdmin\FineAdmin.IRepository\bin\Debug\netstandard2.0\FineAdmin.IRepository.pdb
+G:\VS\VS框架\自写框架\FineAdmin\FineAdmin.IRepository\bin\Debug\netstandard2.0\DapperExtensions.dll
+G:\VS\VS框架\自写框架\FineAdmin\FineAdmin.IRepository\bin\Debug\netstandard2.0\FineAdmin.Common.dll
+G:\VS\VS框架\自写框架\FineAdmin\FineAdmin.IRepository\bin\Debug\netstandard2.0\FineAdmin.Model.dll
+G:\VS\VS框架\自写框架\FineAdmin\FineAdmin.IRepository\bin\Debug\netstandard2.0\DapperExtensions.pdb
+G:\VS\VS框架\自写框架\FineAdmin\FineAdmin.IRepository\bin\Debug\netstandard2.0\FineAdmin.Common.pdb
+G:\VS\VS框架\自写框架\FineAdmin\FineAdmin.IRepository\bin\Debug\netstandard2.0\FineAdmin.Model.pdb
+G:\VS\VS框架\自写框架\FineAdmin\FineAdmin.IRepository\obj\Debug\netstandard2.0\FineAdmin.IRepository.csproj.CopyComplete
+G:\VS\VS框架\自写框架\FineAdmin\FineAdmin.IRepository\obj\Debug\netstandard2.0\FineAdmin.IRepository.dll
+G:\VS\VS框架\自写框架\FineAdmin\FineAdmin.IRepository\obj\Debug\netstandard2.0\FineAdmin.IRepository.pdb

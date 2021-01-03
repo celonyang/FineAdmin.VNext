@@ -1,0 +1,9 @@
+G:\VS\VS框架\自写框架\FineAdmin\FineAdmin.Common\obj\Debug\netstandard2.0\FineAdmin.Common.AssemblyInfoInputs.cache
+G:\VS\VS框架\自写框架\FineAdmin\FineAdmin.Common\obj\Debug\netstandard2.0\FineAdmin.Common.AssemblyInfo.cs
+G:\VS\VS框架\自写框架\FineAdmin\FineAdmin.Common\obj\Debug\netstandard2.0\FineAdmin.Common.csproj.CoreCompileInputs.cache
+G:\VS\VS框架\自写框架\FineAdmin\FineAdmin.Common\bin\Debug\netstandard2.0\FineAdmin.Common.deps.json
+G:\VS\VS框架\自写框架\FineAdmin\FineAdmin.Common\bin\Debug\netstandard2.0\FineAdmin.Common.dll
+G:\VS\VS框架\自写框架\FineAdmin\FineAdmin.Common\bin\Debug\netstandard2.0\FineAdmin.Common.pdb
+G:\VS\VS框架\自写框架\FineAdmin\FineAdmin.Common\obj\Debug\netstandard2.0\FineAdmin.Common.dll
+G:\VS\VS框架\自写框架\FineAdmin\FineAdmin.Common\obj\Debug\netstandard2.0\FineAdmin.Common.pdb
+G:\VS\VS框架\自写框架\FineAdmin\FineAdmin.Common\obj\Debug\netstandard2.0\FineAdmin.Common.csprojAssemblyReference.cache

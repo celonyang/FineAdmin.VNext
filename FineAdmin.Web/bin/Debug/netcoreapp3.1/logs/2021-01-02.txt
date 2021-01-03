@@ -1,0 +1,311 @@
+[2021-01-02 11:42:49.4770] [Debug] [1 ] [FineAdmin.Web.Program.Main]---- init main
+[2021-01-02 11:43:07.9934] [Info] [1 ] [Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted]---- Application started. Press Ctrl+C to shut down.
+[2021-01-02 11:43:08.0594] [Info] [1 ] [Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted]---- Hosting environment: Development
+[2021-01-02 11:43:08.0594] [Info] [1 ] [Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted]---- Content root path: G:\VS\VS框架\自写框架\FineAdmin\FineAdmin.Web
+[2021-01-02 11:43:08.9995] [Info] [8 ] [FineAdmin.Web.Controllers.LoginController.GetAuthCode]---- 获取验证码
+[2021-01-02 11:43:09.3188] [Error] [8 ] [FineAdmin.Web.Controllers.LoginController.GetAuthCode]---- 获取验证码异常:System.ArgumentException: 'gb2312' is not a supported encoding name. For information on defining a custom encoding, see the documentation for the Encoding.RegisterProvider method. (Parameter 'name')
+   at System.Text.EncodingTable.InternalGetCodePageFromName(String name)
+   at System.Text.EncodingTable.GetCodePageFromName(String name)
+   at System.Text.Encoding.GetEncoding(String name)
+   at FineAdmin.Common.Md5.md5(String str, Int32 bit) in G:\VS\VS框架\自写框架\FineAdmin\FineAdmin.Common\Security\MD5.cs:line 18
+   at FineAdmin.Common.VerifyCode.GetVerifyCode() in G:\VS\VS框架\自写框架\FineAdmin\FineAdmin.Web\Common\VerifyCode.cs:line 35
+   at FineAdmin.Web.Controllers.LoginController.GetAuthCode() in G:\VS\VS框架\自写框架\FineAdmin\FineAdmin.Web\Controllers\LoginController.cs:line 33
+[2021-01-02 11:43:18.3006] [Error] [8 ] [Microsoft.AspNetCore.Diagnostics.DiagnosticsLoggerExtensions.UnhandledException]---- An unhandled exception has occurred while executing the request.
+[2021-01-02 11:43:26.3873] [Info] [9 ] [FineAdmin.Web.Controllers.LoginController.GetAuthCode]---- 获取验证码
+[2021-01-02 11:43:26.4488] [Error] [9 ] [FineAdmin.Web.Controllers.LoginController.GetAuthCode]---- 获取验证码异常:System.ArgumentException: 'gb2312' is not a supported encoding name. For information on defining a custom encoding, see the documentation for the Encoding.RegisterProvider method. (Parameter 'name')
+   at System.Text.EncodingTable.InternalGetCodePageFromName(String name)
+   at System.Text.EncodingTable.GetCodePageFromName(String name)
+   at System.Text.Encoding.GetEncoding(String name)
+   at FineAdmin.Common.Md5.md5(String str, Int32 bit) in G:\VS\VS框架\自写框架\FineAdmin\FineAdmin.Common\Security\MD5.cs:line 18
+   at FineAdmin.Common.VerifyCode.GetVerifyCode() in G:\VS\VS框架\自写框架\FineAdmin\FineAdmin.Web\Common\VerifyCode.cs:line 35
+   at FineAdmin.Web.Controllers.LoginController.GetAuthCode() in G:\VS\VS框架\自写框架\FineAdmin\FineAdmin.Web\Controllers\LoginController.cs:line 33
+[2021-01-02 11:44:59.5926] [Debug] [1 ] [FineAdmin.Web.Program.Main]---- init main
+[2021-01-02 11:45:16.8150] [Info] [1 ] [Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted]---- Application started. Press Ctrl+C to shut down.
+[2021-01-02 11:45:16.8402] [Info] [1 ] [Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted]---- Hosting environment: Development
+[2021-01-02 11:45:16.8633] [Info] [1 ] [Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted]---- Content root path: G:\VS\VS框架\自写框架\FineAdmin\FineAdmin.Web
+[2021-01-02 11:45:17.4058] [Info] [14 ] [FineAdmin.Web.Controllers.LoginController.GetAuthCode]---- 获取验证码
+[2021-01-02 11:45:17.7104] [Error] [14 ] [FineAdmin.Web.Controllers.LoginController.GetAuthCode]---- 获取验证码异常:System.ArgumentException: 'gb2312' is not a supported encoding name. For information on defining a custom encoding, see the documentation for the Encoding.RegisterProvider method. (Parameter 'name')
+   at System.Text.EncodingTable.InternalGetCodePageFromName(String name)
+   at System.Text.EncodingTable.GetCodePageFromName(String name)
+   at System.Text.Encoding.GetEncoding(String name)
+   at FineAdmin.Common.Md5.md5(String str, Int32 bit) in G:\VS\VS框架\自写框架\FineAdmin\FineAdmin.Common\Security\MD5.cs:line 18
+   at FineAdmin.Common.VerifyCode.GetVerifyCode() in G:\VS\VS框架\自写框架\FineAdmin\FineAdmin.Web\Common\VerifyCode.cs:line 35
+   at FineAdmin.Web.Controllers.LoginController.GetAuthCode() in G:\VS\VS框架\自写框架\FineAdmin\FineAdmin.Web\Controllers\LoginController.cs:line 33
+[2021-01-02 11:46:51.5939] [Debug] [1 ] [FineAdmin.Web.Program.Main]---- init main
+[2021-01-02 11:47:08.5632] [Info] [1 ] [Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync]---- Now listening on: https://localhost:5001
+[2021-01-02 11:47:08.6003] [Info] [1 ] [Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync]---- Now listening on: http://localhost:5000
+[2021-01-02 11:47:08.6003] [Info] [1 ] [Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted]---- Application started. Press Ctrl+C to shut down.
+[2021-01-02 11:47:08.6003] [Info] [1 ] [Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted]---- Hosting environment: Development
+[2021-01-02 11:47:08.6003] [Info] [1 ] [Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted]---- Content root path: G:\VS\VS框架\自写框架\FineAdmin\FineAdmin.Web
+[2021-01-02 11:47:11.8983] [Info] [6 ] [FineAdmin.Web.Controllers.LoginController.GetAuthCode]---- 获取验证码
+[2021-01-02 11:47:12.1179] [Error] [6 ] [FineAdmin.Web.Controllers.LoginController.GetAuthCode]---- 获取验证码异常:System.ArgumentException: 'gb2312' is not a supported encoding name. For information on defining a custom encoding, see the documentation for the Encoding.RegisterProvider method. (Parameter 'name')
+   at System.Text.EncodingTable.InternalGetCodePageFromName(String name)
+   at System.Text.EncodingTable.GetCodePageFromName(String name)
+   at System.Text.Encoding.GetEncoding(String name)
+   at FineAdmin.Common.Md5.md5(String str, Int32 bit) in G:\VS\VS框架\自写框架\FineAdmin\FineAdmin.Common\Security\MD5.cs:line 18
+   at FineAdmin.Common.VerifyCode.GetVerifyCode() in G:\VS\VS框架\自写框架\FineAdmin\FineAdmin.Web\Common\VerifyCode.cs:line 35
+   at FineAdmin.Web.Controllers.LoginController.GetAuthCode() in G:\VS\VS框架\自写框架\FineAdmin\FineAdmin.Web\Controllers\LoginController.cs:line 33
+[2021-01-02 11:49:10.7758] [Debug] [1 ] [FineAdmin.Web.Program.Main]---- init main
+[2021-01-02 11:49:28.3725] [Info] [1 ] [Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted]---- Application started. Press Ctrl+C to shut down.
+[2021-01-02 11:49:28.3869] [Info] [1 ] [Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted]---- Hosting environment: Development
+[2021-01-02 11:49:28.4251] [Info] [1 ] [Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted]---- Content root path: G:\VS\VS框架\自写框架\FineAdmin\FineAdmin.Web
+[2021-01-02 11:49:29.1407] [Info] [7 ] [FineAdmin.Web.Controllers.LoginController.GetAuthCode]---- 获取验证码
+[2021-01-02 11:49:29.3985] [Error] [7 ] [FineAdmin.Web.Controllers.LoginController.GetAuthCode]---- 获取验证码异常:System.ArgumentException: 'gb2312' is not a supported encoding name. For information on defining a custom encoding, see the documentation for the Encoding.RegisterProvider method. (Parameter 'name')
+   at System.Text.EncodingTable.InternalGetCodePageFromName(String name)
+   at System.Text.EncodingTable.GetCodePageFromName(String name)
+   at System.Text.Encoding.GetEncoding(String name)
+   at FineAdmin.Common.Md5.md5(String str, Int32 bit) in G:\VS\VS框架\自写框架\FineAdmin\FineAdmin.Common\Security\MD5.cs:line 18
+   at FineAdmin.Common.VerifyCode.GetVerifyCode() in G:\VS\VS框架\自写框架\FineAdmin\FineAdmin.Web\Common\VerifyCode.cs:line 35
+   at FineAdmin.Web.Controllers.LoginController.GetAuthCode() in G:\VS\VS框架\自写框架\FineAdmin\FineAdmin.Web\Controllers\LoginController.cs:line 33
+[2021-01-02 11:51:50.4988] [Debug] [1 ] [FineAdmin.Web.Program.Main]---- init main
+[2021-01-02 11:52:07.2371] [Info] [1 ] [Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted]---- Application started. Press Ctrl+C to shut down.
+[2021-01-02 11:52:07.2632] [Info] [1 ] [Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted]---- Hosting environment: Development
+[2021-01-02 11:52:07.2850] [Info] [1 ] [Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted]---- Content root path: G:\VS\VS框架\自写框架\FineAdmin\FineAdmin.Web
+[2021-01-02 11:52:07.9391] [Info] [13 ] [FineAdmin.Web.Controllers.LoginController.GetAuthCode]---- 获取验证码
+[2021-01-02 11:52:14.8629] [Info] [13 ] [FineAdmin.Web.Controllers.LoginController.GetAuthCode]---- 获取验证码
+[2021-01-02 11:52:17.5462] [Info] [16 ] [FineAdmin.Web.Controllers.LoginController.GetAuthCode]---- 获取验证码
+[2021-01-02 11:52:18.0577] [Info] [14 ] [FineAdmin.Web.Controllers.LoginController.GetAuthCode]---- 获取验证码
+[2021-01-02 11:54:19.2590] [Debug] [1 ] [FineAdmin.Web.Program.Main]---- init main
+[2021-01-02 11:54:38.7192] [Info] [1 ] [Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted]---- Application started. Press Ctrl+C to shut down.
+[2021-01-02 11:54:38.7343] [Info] [1 ] [Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted]---- Hosting environment: Development
+[2021-01-02 11:54:38.7744] [Info] [1 ] [Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted]---- Content root path: G:\VS\VS框架\自写框架\FineAdmin\FineAdmin.Web
+[2021-01-02 11:54:39.3541] [Info] [16 ] [FineAdmin.Web.Controllers.LoginController.GetAuthCode]---- 获取验证码
+[2021-01-02 11:58:02.1443] [Debug] [1 ] [FineAdmin.Web.Program.Main]---- init main
+[2021-01-02 11:59:02.1903] [Info] [1 ] [Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted]---- Application started. Press Ctrl+C to shut down.
+[2021-01-02 11:59:02.2400] [Info] [1 ] [Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted]---- Hosting environment: Development
+[2021-01-02 11:59:02.2400] [Info] [1 ] [Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted]---- Content root path: G:\VS\VS框架\自写框架\FineAdmin\FineAdmin.Web
+[2021-01-02 11:59:04.8482] [Info] [12 ] [FineAdmin.Web.Controllers.LoginController.GetAuthCode]---- 获取验证码
+[2021-01-02 12:00:35.7268] [Debug] [1 ] [FineAdmin.Web.Program.Main]---- init main
+[2021-01-02 12:01:38.8309] [Info] [1 ] [Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted]---- Application started. Press Ctrl+C to shut down.
+[2021-01-02 12:01:38.9309] [Info] [1 ] [Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted]---- Hosting environment: Development
+[2021-01-02 12:01:38.9987] [Info] [1 ] [Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted]---- Content root path: G:\VS\VS框架\自写框架\FineAdmin\FineAdmin.Web
+[2021-01-02 12:01:41.8709] [Info] [8 ] [FineAdmin.Web.Controllers.LoginController.GetAuthCode]---- 获取验证码
+[2021-01-02 12:06:40.8244] [Debug] [1 ] [FineAdmin.Web.Program.Main]---- init main
+[2021-01-02 12:07:46.3444] [Info] [1 ] [Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted]---- Application started. Press Ctrl+C to shut down.
+[2021-01-02 12:07:46.4037] [Info] [1 ] [Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted]---- Hosting environment: Development
+[2021-01-02 12:07:46.5576] [Info] [1 ] [Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted]---- Content root path: G:\VS\VS框架\自写框架\FineAdmin\FineAdmin.Web
+[2021-01-02 12:07:49.4339] [Info] [15 ] [FineAdmin.Web.Controllers.LoginController.GetAuthCode]---- 获取验证码
+[2021-01-02 12:13:33.2522] [Debug] [1 ] [FineAdmin.Web.Program.Main]---- init main
+[2021-01-02 12:14:35.9534] [Info] [1 ] [Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted]---- Application started. Press Ctrl+C to shut down.
+[2021-01-02 12:14:35.9706] [Info] [1 ] [Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted]---- Hosting environment: Development
+[2021-01-02 12:14:36.0869] [Info] [1 ] [Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted]---- Content root path: G:\VS\VS框架\自写框架\FineAdmin\FineAdmin.Web
+[2021-01-02 12:14:38.6474] [Info] [17 ] [FineAdmin.Web.Controllers.LoginController.GetAuthCode]---- 获取验证码
+[2021-01-02 12:18:12.4351] [Debug] [1 ] [FineAdmin.Web.Program.Main]---- init main
+[2021-01-02 12:19:06.7483] [Info] [1 ] [Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted]---- Application started. Press Ctrl+C to shut down.
+[2021-01-02 12:19:06.7920] [Info] [1 ] [Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted]---- Hosting environment: Development
+[2021-01-02 12:19:06.8688] [Info] [1 ] [Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted]---- Content root path: G:\VS\VS框架\自写框架\FineAdmin\FineAdmin.Web
+[2021-01-02 12:19:10.0680] [Info] [10 ] [FineAdmin.Web.Controllers.LoginController.GetAuthCode]---- 获取验证码
+[2021-01-02 12:19:47.0963] [Error] [10 ] [Microsoft.AspNetCore.Diagnostics.DiagnosticsLoggerExtensions.UnhandledException]---- An unhandled exception has occurred while executing the request.
+[2021-01-02 12:19:47.8210] [Info] [10 ] [FineAdmin.Web.Controllers.LoginController.GetAuthCode]---- 获取验证码
+[2021-01-02 12:19:55.5849] [Error] [10 ] [Microsoft.AspNetCore.Diagnostics.DiagnosticsLoggerExtensions.UnhandledException]---- An unhandled exception has occurred while executing the request.
+[2021-01-02 12:19:55.7922] [Info] [4 ] [FineAdmin.Web.Controllers.LoginController.GetAuthCode]---- 获取验证码
+[2021-01-02 12:23:10.4427] [Debug] [1 ] [FineAdmin.Web.Program.Main]---- init main
+[2021-01-02 12:24:08.0399] [Info] [1 ] [Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted]---- Application started. Press Ctrl+C to shut down.
+[2021-01-02 12:24:08.1171] [Info] [1 ] [Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted]---- Hosting environment: Development
+[2021-01-02 12:24:08.2475] [Info] [1 ] [Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted]---- Content root path: G:\VS\VS框架\自写框架\FineAdmin\FineAdmin.Web
+[2021-01-02 12:24:11.4419] [Info] [4 ] [FineAdmin.Web.Controllers.LoginController.GetAuthCode]---- 获取验证码
+[2021-01-02 12:24:30.9765] [Info] [14 ] [FineAdmin.Web.Controllers.LoginController.GetAuthCode]---- 获取验证码
+[2021-01-02 12:24:59.0797] [Info] [23 ] [FineAdmin.Web.Controllers.LoginController.GetAuthCode]---- 获取验证码
+[2021-01-02 17:19:07.1910] [Debug] [1 ] [FineAdmin.Web.Program.Main]---- init main
+[2021-01-02 17:19:31.0845] [Info] [1 ] [Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted]---- Application started. Press Ctrl+C to shut down.
+[2021-01-02 17:19:31.1295] [Info] [1 ] [Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted]---- Hosting environment: Development
+[2021-01-02 17:19:31.1956] [Info] [1 ] [Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted]---- Content root path: G:\VS\VS框架\自写框架\FineAdmin\FineAdmin.Web
+[2021-01-02 17:19:32.6509] [Info] [5 ] [FineAdmin.Web.Controllers.LoginController.GetAuthCode]---- 获取验证码
+[2021-01-02 17:22:35.4921] [Info] [15 ] [FineAdmin.Web.Controllers.LoginController.GetAuthCode]---- 获取验证码
+[2021-01-02 17:24:56.4599] [Debug] [1 ] [FineAdmin.Web.Program.Main]---- init main
+[2021-01-02 17:25:13.5784] [Info] [1 ] [Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted]---- Application started. Press Ctrl+C to shut down.
+[2021-01-02 17:25:13.5943] [Info] [1 ] [Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted]---- Hosting environment: Development
+[2021-01-02 17:25:13.6192] [Info] [1 ] [Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted]---- Content root path: G:\VS\VS框架\自写框架\FineAdmin\FineAdmin.Web
+[2021-01-02 17:25:14.2707] [Info] [4 ] [FineAdmin.Web.Controllers.LoginController.GetAuthCode]---- 获取验证码
+[2021-01-02 17:25:33.4615] [Info] [13 ] [FineAdmin.Web.Controllers.LoginController.GetAuthCode]---- 获取验证码
+[2021-01-02 17:34:10.1109] [Debug] [1 ] [FineAdmin.Web.Program.Main]---- init main
+[2021-01-02 17:34:27.6556] [Info] [1 ] [Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted]---- Application started. Press Ctrl+C to shut down.
+[2021-01-02 17:34:27.6733] [Info] [1 ] [Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted]---- Hosting environment: Development
+[2021-01-02 17:34:27.7134] [Info] [1 ] [Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted]---- Content root path: G:\VS\VS框架\自写框架\FineAdmin\FineAdmin.Web
+[2021-01-02 17:34:28.2278] [Info] [4 ] [FineAdmin.Web.Controllers.LoginController.GetAuthCode]---- 获取验证码
+[2021-01-02 17:34:40.4443] [Info] [9 ] [FineAdmin.Web.Controllers.LoginController.GetAuthCode]---- 获取验证码
+[2021-01-02 17:34:52.7367] [Info] [11 ] [FineAdmin.Web.Controllers.LoginController.GetAuthCode]---- 获取验证码
+[2021-01-02 17:58:45.9724] [Info] [18 ] [FineAdmin.Web.Controllers.LoginController.GetAuthCode]---- 获取验证码
+[2021-01-02 17:58:52.2981] [Info] [23 ] [FineAdmin.Web.Controllers.LoginController.GetAuthCode]---- 获取验证码
+[2021-01-02 17:58:57.1025] [Info] [18 ] [FineAdmin.Web.Controllers.LoginController.GetAuthCode]---- 获取验证码
+[2021-01-02 17:59:42.5893] [Debug] [1 ] [FineAdmin.Web.Program.Main]---- init main
+[2021-01-02 18:00:01.3921] [Info] [1 ] [Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted]---- Application started. Press Ctrl+C to shut down.
+[2021-01-02 18:00:01.4256] [Info] [1 ] [Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted]---- Hosting environment: Development
+[2021-01-02 18:00:01.4470] [Info] [1 ] [Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted]---- Content root path: G:\VS\VS框架\自写框架\FineAdmin\FineAdmin.Web
+[2021-01-02 18:00:01.9947] [Info] [9 ] [FineAdmin.Web.Controllers.LoginController.GetAuthCode]---- 获取验证码
+[2021-01-02 18:00:23.4226] [Info] [8 ] [FineAdmin.Web.Controllers.LoginController.GetAuthCode]---- 获取验证码
+[2021-01-02 19:15:12.9924] [Info] [19 ] [FineAdmin.Web.Controllers.LoginController.GetAuthCode]---- 获取验证码
+[2021-01-02 19:15:24.1706] [Info] [16 ] [FineAdmin.Web.Controllers.LoginController.GetAuthCode]---- 获取验证码
+[2021-01-02 19:15:27.4484] [Info] [18 ] [FineAdmin.Web.Controllers.LoginController.GetAuthCode]---- 获取验证码
+[2021-01-02 19:15:28.4039] [Info] [16 ] [FineAdmin.Web.Controllers.LoginController.GetAuthCode]---- 获取验证码
+[2021-01-02 19:15:29.2469] [Info] [18 ] [FineAdmin.Web.Controllers.LoginController.GetAuthCode]---- 获取验证码
+[2021-01-02 19:15:30.0516] [Info] [23 ] [FineAdmin.Web.Controllers.LoginController.GetAuthCode]---- 获取验证码
+[2021-01-02 19:15:33.1635] [Info] [18 ] [FineAdmin.Web.Controllers.LoginController.GetAuthCode]---- 获取验证码
+[2021-01-02 19:15:56.8133] [Info] [25 ] [FineAdmin.Web.Controllers.LoginController.GetAuthCode]---- 获取验证码
+[2021-01-02 19:22:48.3048] [Debug] [1 ] [FineAdmin.Web.Program.Main]---- init main
+[2021-01-02 19:23:06.7726] [Info] [1 ] [Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted]---- Application started. Press Ctrl+C to shut down.
+[2021-01-02 19:23:06.7893] [Info] [1 ] [Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted]---- Hosting environment: Development
+[2021-01-02 19:23:06.8438] [Info] [1 ] [Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted]---- Content root path: G:\VS\VS框架\自写框架\FineAdmin\FineAdmin.Web
+[2021-01-02 19:23:07.4107] [Info] [4 ] [FineAdmin.Web.Controllers.LoginController.GetAuthCode]---- 获取验证码
+[2021-01-02 19:23:26.7393] [Info] [6 ] [FineAdmin.Web.Controllers.LoginController.GetAuthCode]---- 获取验证码
+[2021-01-02 19:23:30.4938] [Info] [8 ] [FineAdmin.Web.Controllers.LoginController.GetAuthCode]---- 获取验证码
+[2021-01-02 19:23:35.1081] [Info] [6 ] [FineAdmin.Web.Controllers.LoginController.GetAuthCode]---- 获取验证码
+[2021-01-02 19:23:37.8863] [Info] [6 ] [FineAdmin.Web.Controllers.LoginController.GetAuthCode]---- 获取验证码
+[2021-01-02 19:23:43.3075] [Info] [6 ] [FineAdmin.Web.Controllers.LoginController.GetAuthCode]---- 获取验证码
+[2021-01-02 19:23:44.7725] [Info] [12 ] [FineAdmin.Web.Controllers.LoginController.GetAuthCode]---- 获取验证码
+[2021-01-02 19:23:45.8063] [Info] [4 ] [FineAdmin.Web.Controllers.LoginController.GetAuthCode]---- 获取验证码
+[2021-01-02 19:23:46.9565] [Info] [8 ] [FineAdmin.Web.Controllers.LoginController.GetAuthCode]---- 获取验证码
+[2021-01-02 19:23:48.0441] [Info] [6 ] [FineAdmin.Web.Controllers.LoginController.GetAuthCode]---- 获取验证码
+[2021-01-02 19:23:49.1392] [Info] [8 ] [FineAdmin.Web.Controllers.LoginController.GetAuthCode]---- 获取验证码
+[2021-01-02 19:23:49.3400] [Info] [18 ] [FineAdmin.Web.Controllers.LoginController.GetAuthCode]---- 获取验证码
+[2021-01-02 19:23:49.7678] [Info] [12 ] [FineAdmin.Web.Controllers.LoginController.GetAuthCode]---- 获取验证码
+[2021-01-02 19:24:06.5214] [Info] [6 ] [FineAdmin.Web.Controllers.LoginController.GetAuthCode]---- 获取验证码
+[2021-01-02 19:24:14.6137] [Info] [6 ] [FineAdmin.Web.Controllers.LoginController.GetAuthCode]---- 获取验证码
+[2021-01-02 19:24:15.5625] [Info] [18 ] [FineAdmin.Web.Controllers.LoginController.GetAuthCode]---- 获取验证码
+[2021-01-02 19:24:16.2807] [Info] [8 ] [FineAdmin.Web.Controllers.LoginController.GetAuthCode]---- 获取验证码
+[2021-01-02 19:24:16.9879] [Info] [6 ] [FineAdmin.Web.Controllers.LoginController.GetAuthCode]---- 获取验证码
+[2021-01-02 19:24:17.7671] [Info] [6 ] [FineAdmin.Web.Controllers.LoginController.GetAuthCode]---- 获取验证码
+[2021-01-02 19:24:37.5422] [Info] [4 ] [FineAdmin.Web.Controllers.LoginController.GetAuthCode]---- 获取验证码
+[2021-01-02 19:31:56.0821] [Debug] [1 ] [FineAdmin.Web.Program.Main]---- init main
+[2021-01-02 19:32:13.5013] [Info] [1 ] [Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted]---- Application started. Press Ctrl+C to shut down.
+[2021-01-02 19:32:13.5390] [Info] [1 ] [Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted]---- Hosting environment: Development
+[2021-01-02 19:32:13.5617] [Info] [1 ] [Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted]---- Content root path: G:\VS\VS框架\自写框架\FineAdmin\FineAdmin.Web
+[2021-01-02 19:32:14.2781] [Info] [11 ] [FineAdmin.Web.Controllers.LoginController.GetAuthCode]---- 获取验证码
+[2021-01-02 19:34:28.9464] [Debug] [1 ] [FineAdmin.Web.Program.Main]---- init main
+[2021-01-02 19:34:47.1437] [Info] [1 ] [Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted]---- Application started. Press Ctrl+C to shut down.
+[2021-01-02 19:34:47.1812] [Info] [1 ] [Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted]---- Hosting environment: Development
+[2021-01-02 19:34:47.2029] [Info] [1 ] [Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted]---- Content root path: G:\VS\VS框架\自写框架\FineAdmin\FineAdmin.Web
+[2021-01-02 19:34:47.7274] [Info] [8 ] [FineAdmin.Web.Controllers.LoginController.GetAuthCode]---- 获取验证码
+[2021-01-02 19:35:19.3997] [Info] [10 ] [FineAdmin.Web.Controllers.LoginController.GetAuthCode]---- 获取验证码
+[2021-01-02 19:35:33.9628] [Info] [4 ] [FineAdmin.Web.Controllers.LoginController.GetAuthCode]---- 获取验证码
+[2021-01-02 19:39:32.3495] [Debug] [1 ] [FineAdmin.Web.Program.Main]---- init main
+[2021-01-02 19:39:49.3083] [Info] [1 ] [Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted]---- Application started. Press Ctrl+C to shut down.
+[2021-01-02 19:39:49.3434] [Info] [1 ] [Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted]---- Hosting environment: Development
+[2021-01-02 19:39:49.3662] [Info] [1 ] [Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted]---- Content root path: G:\VS\VS框架\自写框架\FineAdmin\FineAdmin.Web
+[2021-01-02 19:39:50.0648] [Info] [9 ] [FineAdmin.Web.Controllers.LoginController.GetAuthCode]---- 获取验证码
+[2021-01-02 19:40:12.7205] [Debug] [1 ] [FineAdmin.Web.Program.Main]---- init main
+[2021-01-02 19:40:30.2676] [Info] [1 ] [Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted]---- Application started. Press Ctrl+C to shut down.
+[2021-01-02 19:40:30.2940] [Info] [1 ] [Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted]---- Hosting environment: Development
+[2021-01-02 19:40:30.3179] [Info] [1 ] [Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted]---- Content root path: G:\VS\VS框架\自写框架\FineAdmin\FineAdmin.Web
+[2021-01-02 19:40:30.9552] [Info] [9 ] [FineAdmin.Web.Controllers.LoginController.GetAuthCode]---- 获取验证码
+[2021-01-02 19:41:00.8713] [Info] [12 ] [FineAdmin.Web.Controllers.LoginController.GetAuthCode]---- 获取验证码
+[2021-01-02 19:51:57.3463] [Debug] [1 ] [FineAdmin.Web.Program.Main]---- init main
+[2021-01-02 19:52:17.4502] [Info] [1 ] [Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted]---- Application started. Press Ctrl+C to shut down.
+[2021-01-02 19:52:17.4769] [Info] [1 ] [Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted]---- Hosting environment: Development
+[2021-01-02 19:52:17.5005] [Info] [1 ] [Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted]---- Content root path: G:\VS\VS框架\自写框架\FineAdmin\FineAdmin.Web
+[2021-01-02 19:52:17.9483] [Info] [4 ] [FineAdmin.Web.Controllers.LoginController.GetAuthCode]---- 获取验证码
+[2021-01-02 19:53:40.9428] [Debug] [1 ] [FineAdmin.Web.Program.Main]---- init main
+[2021-01-02 19:53:59.7361] [Info] [1 ] [Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted]---- Application started. Press Ctrl+C to shut down.
+[2021-01-02 19:53:59.7506] [Info] [1 ] [Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted]---- Hosting environment: Development
+[2021-01-02 19:53:59.7868] [Info] [1 ] [Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted]---- Content root path: G:\VS\VS框架\自写框架\FineAdmin\FineAdmin.Web
+[2021-01-02 19:54:00.3644] [Info] [8 ] [FineAdmin.Web.Controllers.LoginController.GetAuthCode]---- 获取验证码
+[2021-01-02 19:58:23.9956] [Debug] [1 ] [FineAdmin.Web.Program.Main]---- init main
+[2021-01-02 19:58:42.7217] [Info] [1 ] [Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted]---- Application started. Press Ctrl+C to shut down.
+[2021-01-02 19:58:42.7676] [Info] [1 ] [Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted]---- Hosting environment: Development
+[2021-01-02 19:58:42.7828] [Info] [1 ] [Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted]---- Content root path: G:\VS\VS框架\自写框架\FineAdmin\FineAdmin.Web
+[2021-01-02 19:58:43.8787] [Info] [9 ] [FineAdmin.Web.Controllers.LoginController.GetAuthCode]---- 获取验证码
+[2021-01-02 20:02:34.6880] [Debug] [1 ] [FineAdmin.Web.Program.Main]---- init main
+[2021-01-02 20:02:53.2291] [Info] [1 ] [Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted]---- Application started. Press Ctrl+C to shut down.
+[2021-01-02 20:02:53.2595] [Info] [1 ] [Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted]---- Hosting environment: Development
+[2021-01-02 20:02:53.2871] [Info] [1 ] [Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted]---- Content root path: G:\VS\VS框架\自写框架\FineAdmin\FineAdmin.Web
+[2021-01-02 20:02:54.3406] [Info] [5 ] [FineAdmin.Web.Controllers.LoginController.GetAuthCode]---- 获取验证码
+[2021-01-02 20:04:05.5806] [Debug] [1 ] [FineAdmin.Web.Program.Main]---- init main
+[2021-01-02 20:04:22.9879] [Info] [1 ] [Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted]---- Application started. Press Ctrl+C to shut down.
+[2021-01-02 20:04:22.9935] [Info] [1 ] [Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted]---- Hosting environment: Development
+[2021-01-02 20:04:23.0430] [Info] [1 ] [Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted]---- Content root path: G:\VS\VS框架\自写框架\FineAdmin\FineAdmin.Web
+[2021-01-02 20:04:23.8104] [Info] [14 ] [FineAdmin.Web.Controllers.LoginController.GetAuthCode]---- 获取验证码
+[2021-01-02 20:07:06.6097] [Debug] [1 ] [FineAdmin.Web.Program.Main]---- init main
+[2021-01-02 20:07:23.7076] [Info] [1 ] [Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync]---- Now listening on: https://localhost:5001
+[2021-01-02 20:07:23.7286] [Info] [1 ] [Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync]---- Now listening on: http://localhost:5000
+[2021-01-02 20:07:23.7415] [Info] [1 ] [Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted]---- Application started. Press Ctrl+C to shut down.
+[2021-01-02 20:07:23.7415] [Info] [1 ] [Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted]---- Hosting environment: Development
+[2021-01-02 20:07:23.7415] [Info] [1 ] [Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted]---- Content root path: G:\VS\VS框架\自写框架\FineAdmin\FineAdmin.Web
+[2021-01-02 20:07:28.7002] [Info] [10 ] [FineAdmin.Web.Controllers.LoginController.GetAuthCode]---- 获取验证码
+[2021-01-02 20:08:51.5800] [Debug] [1 ] [FineAdmin.Web.Program.Main]---- init main
+[2021-01-02 20:09:31.5655] [Debug] [1 ] [FineAdmin.Web.Program.Main]---- init main
+[2021-01-02 20:09:49.2425] [Info] [1 ] [Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted]---- Application started. Press Ctrl+C to shut down.
+[2021-01-02 20:09:49.2805] [Info] [1 ] [Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted]---- Hosting environment: Development
+[2021-01-02 20:09:49.2950] [Info] [1 ] [Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted]---- Content root path: G:\VS\VS框架\自写框架\FineAdmin\FineAdmin.Web
+[2021-01-02 20:09:50.2828] [Info] [13 ] [FineAdmin.Web.Controllers.LoginController.GetAuthCode]---- 获取验证码
+[2021-01-02 20:14:30.4367] [Debug] [1 ] [FineAdmin.Web.Program.Main]---- init main
+[2021-01-02 20:14:47.5286] [Info] [1 ] [Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted]---- Application started. Press Ctrl+C to shut down.
+[2021-01-02 20:14:47.5420] [Info] [1 ] [Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted]---- Hosting environment: Development
+[2021-01-02 20:14:47.5750] [Info] [1 ] [Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted]---- Content root path: G:\VS\VS框架\自写框架\FineAdmin\FineAdmin.Web
+[2021-01-02 20:14:48.3693] [Info] [7 ] [FineAdmin.Web.Controllers.LoginController.GetAuthCode]---- 获取验证码
+[2021-01-02 20:17:01.5650] [Debug] [1 ] [FineAdmin.Web.Program.Main]---- init main
+[2021-01-02 20:17:18.3721] [Info] [1 ] [Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted]---- Application started. Press Ctrl+C to shut down.
+[2021-01-02 20:17:18.3835] [Info] [1 ] [Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted]---- Hosting environment: Development
+[2021-01-02 20:17:18.4611] [Info] [1 ] [Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted]---- Content root path: G:\VS\VS框架\自写框架\FineAdmin\FineAdmin.Web
+[2021-01-02 20:17:19.2053] [Info] [7 ] [FineAdmin.Web.Controllers.LoginController.GetAuthCode]---- 获取验证码
+[2021-01-02 20:17:48.3027] [Info] [12 ] [FineAdmin.Web.Controllers.LoginController.GetAuthCode]---- 获取验证码
+[2021-01-02 20:26:21.4672] [Debug] [1 ] [FineAdmin.Web.Program.Main]---- init main
+[2021-01-02 20:26:38.9673] [Info] [1 ] [Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted]---- Application started. Press Ctrl+C to shut down.
+[2021-01-02 20:26:38.9916] [Info] [1 ] [Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted]---- Hosting environment: Development
+[2021-01-02 20:26:39.0188] [Info] [1 ] [Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted]---- Content root path: G:\VS\VS框架\自写框架\FineAdmin\FineAdmin.Web
+[2021-01-02 20:26:39.8068] [Info] [4 ] [FineAdmin.Web.Controllers.LoginController.GetAuthCode]---- 获取验证码
+[2021-01-02 20:26:46.5766] [Info] [8 ] [FineAdmin.Web.Controllers.LoginController.GetAuthCode]---- 获取验证码
+[2021-01-02 20:27:38.5837] [Debug] [1 ] [FineAdmin.Web.Program.Main]---- init main
+[2021-01-02 20:27:45.0128] [Info] [1 ] [Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync]---- Now listening on: https://localhost:5001
+[2021-01-02 20:27:45.0128] [Info] [1 ] [Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync]---- Now listening on: http://localhost:5000
+[2021-01-02 20:27:45.0128] [Info] [1 ] [Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted]---- Application started. Press Ctrl+C to shut down.
+[2021-01-02 20:27:45.0231] [Info] [1 ] [Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted]---- Hosting environment: Development
+[2021-01-02 20:27:45.0231] [Info] [1 ] [Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted]---- Content root path: G:\VS\VS框架\自写框架\FineAdmin\FineAdmin.Web
+[2021-01-02 20:28:26.5477] [Info] [9 ] [FineAdmin.Web.Controllers.LoginController.GetAuthCode]---- 获取验证码
+[2021-01-02 20:31:10.5208] [Info] [25 ] [FineAdmin.Web.Controllers.LoginController.GetAuthCode]---- 获取验证码
+[2021-01-02 20:33:36.5231] [Info] [35 ] [Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStopping]---- Application is shutting down...
+[2021-01-02 20:34:02.7828] [Debug] [1 ] [FineAdmin.Web.Program.Main]---- init main
+[2021-01-02 20:34:09.5097] [Info] [1 ] [Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync]---- Now listening on: https://localhost:5001
+[2021-01-02 20:34:09.5097] [Info] [1 ] [Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync]---- Now listening on: http://localhost:5000
+[2021-01-02 20:34:09.5097] [Info] [1 ] [Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted]---- Application started. Press Ctrl+C to shut down.
+[2021-01-02 20:34:09.5097] [Info] [1 ] [Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted]---- Hosting environment: Development
+[2021-01-02 20:34:09.5097] [Info] [1 ] [Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted]---- Content root path: G:\VS\VS框架\自写框架\FineAdmin\FineAdmin.Web
+[2021-01-02 20:34:24.2182] [Info] [4 ] [FineAdmin.Web.Controllers.LoginController.GetAuthCode]---- 获取验证码
+[2021-01-02 21:07:04.0481] [Info] [57 ] [FineAdmin.Web.Controllers.LoginController.GetAuthCode]---- 获取验证码
+[2021-01-02 21:07:17.0963] [Info] [65 ] [FineAdmin.Web.Controllers.LoginController.GetAuthCode]---- 获取验证码
+[2021-01-02 21:12:03.0944] [Error] [78 ] [Microsoft.AspNetCore.Diagnostics.DiagnosticsLoggerExtensions.UnhandledException]---- An unhandled exception has occurred while executing the request.
+[2021-01-02 21:12:18.0204] [Error] [76 ] [Microsoft.AspNetCore.Diagnostics.DiagnosticsLoggerExtensions.UnhandledException]---- An unhandled exception has occurred while executing the request.
+[2021-01-02 21:12:35.0385] [Info] [78 ] [FineAdmin.Web.Controllers.LoginController.GetAuthCode]---- 获取验证码
+[2021-01-02 21:14:31.1372] [Debug] [1 ] [FineAdmin.Web.Program.Main]---- init main
+[2021-01-02 21:14:50.1938] [Info] [1 ] [Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted]---- Application started. Press Ctrl+C to shut down.
+[2021-01-02 21:14:50.1997] [Info] [1 ] [Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted]---- Hosting environment: Development
+[2021-01-02 21:14:50.2474] [Info] [1 ] [Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted]---- Content root path: G:\VS\VS框架\自写框架\FineAdmin\FineAdmin.Web
+[2021-01-02 21:14:51.3331] [Info] [9 ] [FineAdmin.Web.Controllers.LoginController.GetAuthCode]---- 获取验证码
+[2021-01-02 21:15:03.5518] [Info] [9 ] [FineAdmin.Web.Controllers.LoginController.GetAuthCode]---- 获取验证码
+[2021-01-02 21:16:11.0477] [Info] [51 ] [FineAdmin.Web.Controllers.LoginController.GetAuthCode]---- 获取验证码
+[2021-01-02 21:20:33.9270] [Info] [46 ] [FineAdmin.Web.Controllers.LoginController.GetAuthCode]---- 获取验证码
+[2021-01-02 21:35:41.4281] [Info] [85 ] [FineAdmin.Web.Controllers.LoginController.GetAuthCode]---- 获取验证码
+[2021-01-02 21:35:46.4729] [Info] [4 ] [FineAdmin.Web.Controllers.LoginController.GetAuthCode]---- 获取验证码
+[2021-01-02 21:45:46.0064] [Info] [105 ] [FineAdmin.Web.Controllers.LoginController.GetAuthCode]---- 获取验证码
+[2021-01-02 21:45:49.2494] [Info] [106 ] [FineAdmin.Web.Controllers.LoginController.GetAuthCode]---- 获取验证码
+[2021-01-02 21:49:33.3004] [Info] [131 ] [FineAdmin.Web.Controllers.LoginController.GetAuthCode]---- 获取验证码
+[2021-01-02 21:51:05.6531] [Info] [132 ] [FineAdmin.Web.Controllers.LoginController.GetAuthCode]---- 获取验证码
+[2021-01-02 21:54:19.2595] [Info] [157 ] [Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStopping]---- Application is shutting down...
+[2021-01-02 21:54:25.0281] [Debug] [1 ] [FineAdmin.Web.Program.Main]---- init main
+[2021-01-02 21:54:43.3812] [Info] [1 ] [Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted]---- Application started. Press Ctrl+C to shut down.
+[2021-01-02 21:54:43.4213] [Info] [1 ] [Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted]---- Hosting environment: Development
+[2021-01-02 21:54:43.4469] [Info] [1 ] [Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted]---- Content root path: G:\VS\VS框架\自写框架\FineAdmin\FineAdmin.Web
+[2021-01-02 21:54:44.3497] [Info] [8 ] [FineAdmin.Web.Controllers.LoginController.GetAuthCode]---- 获取验证码
+[2021-01-02 21:54:51.0666] [Info] [4 ] [FineAdmin.Web.Controllers.LoginController.GetAuthCode]---- 获取验证码
+[2021-01-02 21:58:32.0479] [Debug] [1 ] [FineAdmin.Web.Program.Main]---- init main
+[2021-01-02 21:58:49.5601] [Info] [1 ] [Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted]---- Application started. Press Ctrl+C to shut down.
+[2021-01-02 21:58:49.5874] [Info] [1 ] [Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted]---- Hosting environment: Development
+[2021-01-02 21:58:49.6322] [Info] [1 ] [Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted]---- Content root path: G:\VS\VS框架\自写框架\FineAdmin\FineAdmin.Web
+[2021-01-02 21:58:50.6124] [Info] [8 ] [FineAdmin.Web.Controllers.LoginController.GetAuthCode]---- 获取验证码
+[2021-01-02 22:11:29.0322] [Info] [36 ] [FineAdmin.Web.Controllers.LoginController.GetAuthCode]---- 获取验证码
+[2021-01-02 22:23:11.9408] [Debug] [1 ] [FineAdmin.Web.Program.Main]---- init main
+[2021-01-02 22:23:32.1130] [Info] [1 ] [Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted]---- Application started. Press Ctrl+C to shut down.
+[2021-01-02 22:23:32.1293] [Info] [1 ] [Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted]---- Hosting environment: Development
+[2021-01-02 22:23:32.1848] [Info] [1 ] [Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted]---- Content root path: G:\VS\VS框架\自写框架\FineAdmin\FineAdmin.Web
+[2021-01-02 22:23:33.3201] [Info] [4 ] [FineAdmin.Web.Controllers.LoginController.GetAuthCode]---- 获取验证码
+[2021-01-02 22:38:24.2555] [Debug] [1 ] [FineAdmin.Web.Program.Main]---- init main
+[2021-01-02 22:38:43.4395] [Info] [1 ] [Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted]---- Application started. Press Ctrl+C to shut down.
+[2021-01-02 22:38:43.4443] [Info] [1 ] [Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted]---- Hosting environment: Development
+[2021-01-02 22:38:43.4713] [Info] [1 ] [Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted]---- Content root path: G:\VS\VS框架\自写框架\FineAdmin\FineAdmin.Web
+[2021-01-02 22:38:44.5015] [Info] [4 ] [FineAdmin.Web.Controllers.LoginController.GetAuthCode]---- 获取验证码
+[2021-01-02 22:42:37.0251] [Info] [28 ] [FineAdmin.Web.Controllers.LoginController.GetAuthCode]---- 获取验证码
+[2021-01-02 22:59:36.4566] [Debug] [1 ] [FineAdmin.Web.Program.Main]---- init main
+[2021-01-02 22:59:54.0416] [Info] [1 ] [Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted]---- Application started. Press Ctrl+C to shut down.
+[2021-01-02 22:59:54.0416] [Info] [1 ] [Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted]---- Hosting environment: Development
+[2021-01-02 22:59:54.0895] [Info] [1 ] [Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted]---- Content root path: G:\VS\VS框架\自写框架\FineAdmin\FineAdmin.Web
+[2021-01-02 22:59:54.9362] [Info] [8 ] [FineAdmin.Web.Controllers.LoginController.GetAuthCode]---- 获取验证码
+[2021-01-02 23:02:16.8991] [Info] [24 ] [FineAdmin.Web.Controllers.LoginController.GetAuthCode]---- 获取验证码

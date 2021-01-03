@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DapperExtensions\DapperExtensions.csproj" />
+    <ProjectReference Include="..\FineAdmin.Common\FineAdmin.Common.csproj" />
+    <ProjectReference Include="..\FineAdmin.Model\FineAdmin.Model.csproj" />
+  </ItemGroup>
+
+</Project>
