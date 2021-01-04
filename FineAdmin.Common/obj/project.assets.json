@@ -827,11 +827,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\VS\\VS框架\\自写框架\\FineAdmin\\FineAdmin.Common\\FineAdmin.Common.csproj",
+      "projectUniqueName": "G:\\VS\\VS框架\\自写框架\\FineAdmin\\FineAdmin.VNext\\FineAdmin.Common\\FineAdmin.Common.csproj",
       "projectName": "FineAdmin.Common",
-      "projectPath": "G:\\VS\\VS框架\\自写框架\\FineAdmin\\FineAdmin.Common\\FineAdmin.Common.csproj",
+      "projectPath": "G:\\VS\\VS框架\\自写框架\\FineAdmin\\FineAdmin.VNext\\FineAdmin.Common\\FineAdmin.Common.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "G:\\VS\\VS框架\\自写框架\\FineAdmin\\FineAdmin.Common\\obj\\",
+      "outputPath": "G:\\VS\\VS框架\\自写框架\\FineAdmin\\FineAdmin.VNext\\FineAdmin.Common\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",

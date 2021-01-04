@@ -126,9 +126,9 @@ namespace FineAdmin.Web
                     .PropertiesAutowired()
                     .SingleInstance();
 
-                builder.RegisterType<DbContext>()
-                    .PropertiesAutowired()
-                    .InstancePerDependency();
+                //builder.RegisterType<DbContext>()
+                //    .PropertiesAutowired()
+                //    .InstancePerDependency();
 
                 //WebAPI只用引用services和repository的接口，不用引用实现的dll。
                 //如需加载实现的程序集，将dll拷贝到bin目录下即可，不用引用dll

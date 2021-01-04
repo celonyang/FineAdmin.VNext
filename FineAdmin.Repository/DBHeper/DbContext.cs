@@ -1,4 +1,5 @@
-﻿using Microsoft.Extensions.Configuration;
+﻿using DapperExtensions;
+using Microsoft.Extensions.Configuration;
 using MySql.Data.MySqlClient;
 using Oracle.ManagedDataAccess.Client;
 using System;
@@ -7,16 +8,33 @@ using System.Data.SqlClient;
 namespace FineAdmin.Repository
 {
 
-    public class DbContext
+    public  class DbContext<T> where T : class, new()
     {
-        public IConfiguration configuration { set; get; }
-
-        public System.Data.IDbConnection GetConnection()
+        public static System.Data.IDbConnection GetConnection()
         {
+            var builder = new ConfigurationBuilder();
+            builder.AddJsonFile("appsettings.Development.json", optional: false, reloadOnChange: true);
+            var Configuration = builder.Build();
+
+            string connectionString = null;
+            string type = null;
+            //获取模型类的连接字符串
+            ConnStringAttribute constrAtribute = (ConnStringAttribute)Attribute.GetCustomAttribute(typeof(T), typeof(ConnStringAttribute));
+            if (constrAtribute == null)
+            {
+                connectionString = Configuration["ConnectionStrings:default:sqlconn"];
+                //获取数据库类型
+                type = Configuration["ConnectionStrings:default:type"];
+            }
+            else
+            {
+                string atributeProperty = constrAtribute.GetType().GetProperty("ConnName").ToString();
+                connectionString = Configuration.GetValue<string>(string.Format("ConnectionStrings:{0}:sqlconn", atributeProperty));
+                //获取数据库类型
+                type = Configuration.GetValue<string>(string.Format("ConnectionStrings:{0}:type", atributeProperty));
+            }
             System.Data.IDbConnection connection = null;
-            string connectionString = configuration.GetValue<string>("ConnectionStrings:sqlconn");
-            //获取数据库类型
-            string type = configuration.GetValue<string>("ConnectionStrings:type");
+
             if (type == "MySQL")
             {
                 connection = new MySqlConnection(connectionString);

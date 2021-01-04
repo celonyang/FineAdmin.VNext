@@ -1523,11 +1523,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\VS\\VS框架\\自写框架\\FineAdmin\\FineAdmin.IService\\FineAdmin.IService.csproj",
+      "projectUniqueName": "G:\\VS\\VS框架\\自写框架\\FineAdmin\\FineAdmin.VNext\\FineAdmin.IService\\FineAdmin.IService.csproj",
       "projectName": "FineAdmin.IService",
-      "projectPath": "G:\\VS\\VS框架\\自写框架\\FineAdmin\\FineAdmin.IService\\FineAdmin.IService.csproj",
+      "projectPath": "G:\\VS\\VS框架\\自写框架\\FineAdmin\\FineAdmin.VNext\\FineAdmin.IService\\FineAdmin.IService.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "G:\\VS\\VS框架\\自写框架\\FineAdmin\\FineAdmin.IService\\obj\\",
+      "outputPath": "G:\\VS\\VS框架\\自写框架\\FineAdmin\\FineAdmin.VNext\\FineAdmin.IService\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -1549,17 +1549,17 @@
         "netstandard2.0": {
           "targetAlias": "netstandard2.0",
           "projectReferences": {
-            "G:\\VS\\VS框架\\自写框架\\FineAdmin\\DapperExtensions\\DapperExtensions.csproj": {
-              "projectPath": "G:\\VS\\VS框架\\自写框架\\FineAdmin\\DapperExtensions\\DapperExtensions.csproj"
+            "G:\\VS\\VS框架\\自写框架\\FineAdmin\\FineAdmin.VNext\\DapperExtensions\\DapperExtensions.csproj": {
+              "projectPath": "G:\\VS\\VS框架\\自写框架\\FineAdmin\\FineAdmin.VNext\\DapperExtensions\\DapperExtensions.csproj"
             },
-            "G:\\VS\\VS框架\\自写框架\\FineAdmin\\FineAdmin.Common\\FineAdmin.Common.csproj": {
-              "projectPath": "G:\\VS\\VS框架\\自写框架\\FineAdmin\\FineAdmin.Common\\FineAdmin.Common.csproj"
+            "G:\\VS\\VS框架\\自写框架\\FineAdmin\\FineAdmin.VNext\\FineAdmin.Common\\FineAdmin.Common.csproj": {
+              "projectPath": "G:\\VS\\VS框架\\自写框架\\FineAdmin\\FineAdmin.VNext\\FineAdmin.Common\\FineAdmin.Common.csproj"
             },
-            "G:\\VS\\VS框架\\自写框架\\FineAdmin\\FineAdmin.IRepository\\FineAdmin.IRepository.csproj": {
-              "projectPath": "G:\\VS\\VS框架\\自写框架\\FineAdmin\\FineAdmin.IRepository\\FineAdmin.IRepository.csproj"
+            "G:\\VS\\VS框架\\自写框架\\FineAdmin\\FineAdmin.VNext\\FineAdmin.IRepository\\FineAdmin.IRepository.csproj": {
+              "projectPath": "G:\\VS\\VS框架\\自写框架\\FineAdmin\\FineAdmin.VNext\\FineAdmin.IRepository\\FineAdmin.IRepository.csproj"
             },
-            "G:\\VS\\VS框架\\自写框架\\FineAdmin\\FineAdmin.Model\\FineAdmin.Model.csproj": {
-              "projectPath": "G:\\VS\\VS框架\\自写框架\\FineAdmin\\FineAdmin.Model\\FineAdmin.Model.csproj"
+            "G:\\VS\\VS框架\\自写框架\\FineAdmin\\FineAdmin.VNext\\FineAdmin.Model\\FineAdmin.Model.csproj": {
+              "projectPath": "G:\\VS\\VS框架\\自写框架\\FineAdmin\\FineAdmin.VNext\\FineAdmin.Model\\FineAdmin.Model.csproj"
             }
           }
         }

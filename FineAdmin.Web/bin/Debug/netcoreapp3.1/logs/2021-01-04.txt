@@ -1,0 +1,16 @@
+[2021-01-04 22:08:55.5116] [Debug] [1 ] [FineAdmin.Web.Program.Main]---- init main
+[2021-01-04 22:09:16.1548] [Info] [1 ] [Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted]---- Application started. Press Ctrl+C to shut down.
+[2021-01-04 22:09:16.2165] [Info] [1 ] [Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted]---- Hosting environment: Development
+[2021-01-04 22:09:16.2165] [Info] [1 ] [Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted]---- Content root path: G:\VS\VS框架\自写框架\FineAdmin\FineAdmin.VNext\FineAdmin.Web
+[2021-01-04 22:09:17.0272] [Info] [4 ] [FineAdmin.Web.Controllers.LoginController.GetAuthCode]---- 获取验证码
+[2021-01-04 22:09:35.2607] [Error] [9 ] [Microsoft.AspNetCore.Diagnostics.DiagnosticsLoggerExtensions.UnhandledException]---- An unhandled exception has occurred while executing the request.
+[2021-01-04 22:09:35.3928] [Info] [8 ] [FineAdmin.Web.Controllers.LoginController.GetAuthCode]---- 获取验证码
+[2021-01-04 22:13:54.0103] [Debug] [1 ] [FineAdmin.Web.Program.Main]---- init main
+[2021-01-04 22:14:11.2606] [Info] [1 ] [Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted]---- Application started. Press Ctrl+C to shut down.
+[2021-01-04 22:14:11.2747] [Info] [1 ] [Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted]---- Hosting environment: Development
+[2021-01-04 22:14:11.3107] [Info] [1 ] [Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted]---- Content root path: G:\VS\VS框架\自写框架\FineAdmin\FineAdmin.VNext\FineAdmin.Web
+[2021-01-04 22:14:12.1740] [Info] [4 ] [FineAdmin.Web.Controllers.LoginController.GetAuthCode]---- 获取验证码
+[2021-01-04 22:15:06.6731] [Debug] [1 ] [FineAdmin.Web.Program.Main]---- init main
+[2021-01-04 22:15:23.6805] [Info] [1 ] [Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted]---- Application started. Press Ctrl+C to shut down.
+[2021-01-04 22:15:23.6805] [Info] [1 ] [Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted]---- Hosting environment: Development
+[2021-01-04 22:15:23.7186] [Info] [1 ] [Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted]---- Content root path: G:\VS\VS框架\自写框架\FineAdmin\FineAdmin.VNext\FineAdmin.Web

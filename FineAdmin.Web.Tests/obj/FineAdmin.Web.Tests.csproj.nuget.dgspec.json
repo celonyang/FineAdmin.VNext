@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "G:\\VS\\VS框架\\自写框架\\FineAdmin\\FineAdmin.Web.Tests\\FineAdmin.Web.Tests.csproj": {}
+    "G:\\VS\\VS框架\\自写框架\\FineAdmin\\FineAdmin.VNext\\FineAdmin.Web.Tests\\FineAdmin.Web.Tests.csproj": {}
   },
   "projects": {
-    "G:\\VS\\VS框架\\自写框架\\FineAdmin\\FineAdmin.Web.Tests\\FineAdmin.Web.Tests.csproj": {
+    "G:\\VS\\VS框架\\自写框架\\FineAdmin\\FineAdmin.VNext\\FineAdmin.Web.Tests\\FineAdmin.Web.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\VS\\VS框架\\自写框架\\FineAdmin\\FineAdmin.Web.Tests\\FineAdmin.Web.Tests.csproj",
+        "projectUniqueName": "G:\\VS\\VS框架\\自写框架\\FineAdmin\\FineAdmin.VNext\\FineAdmin.Web.Tests\\FineAdmin.Web.Tests.csproj",
         "projectName": "FineAdmin.Web.Tests",
-        "projectPath": "G:\\VS\\VS框架\\自写框架\\FineAdmin\\FineAdmin.Web.Tests\\FineAdmin.Web.Tests.csproj",
+        "projectPath": "G:\\VS\\VS框架\\自写框架\\FineAdmin\\FineAdmin.VNext\\FineAdmin.Web.Tests\\FineAdmin.Web.Tests.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "G:\\VS\\VS框架\\自写框架\\FineAdmin\\FineAdmin.Web.Tests\\obj\\",
+        "outputPath": "G:\\VS\\VS框架\\自写框架\\FineAdmin\\FineAdmin.VNext\\FineAdmin.Web.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",

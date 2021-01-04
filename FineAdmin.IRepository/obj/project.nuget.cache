@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZEAedkjSy9gWPXn1Og8j7ZZuHFTi32XdLVHD8VAtKY7b+vuV4cjDfNT9E6757ME64QIqh+OP7zN9glcWajFErw==",
+  "dgSpecHash": "UF1NBQ0f9xkkL78XQXq1FTJ6BcTZJ5kfk7jsFRzfpVY9+rYmQmcNsIEVKDQcQxS02KVitFmV5evZlHubBB8x3g==",
   "success": true,
-  "projectFilePath": "G:\\VS\\VS框架\\自写框架\\FineAdmin\\FineAdmin.IRepository\\FineAdmin.IRepository.csproj",
+  "projectFilePath": "G:\\VS\\VS框架\\自写框架\\FineAdmin\\FineAdmin.VNext\\FineAdmin.IRepository\\FineAdmin.IRepository.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Administrator\\.nuget\\packages\\dapper\\2.0.78\\dapper.2.0.78.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

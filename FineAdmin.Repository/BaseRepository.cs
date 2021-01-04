@@ -8,14 +8,13 @@ namespace FineAdmin.Repository
 {
     public class BaseRepository<T> : IBaseRepository<T> where T : class, new()
     {
-        public DbContext dbContext { set; get; }
         #region CRUD
         /// <summary>
         /// 根据主键返回实体
         /// </summary>
         public T GetById(int Id)
         {
-            using (var conn = dbContext.GetConnection())
+            using (var conn = DbContext<T>.GetConnection())
             {
                 return conn.GetById<T>(Id);
             }
@@ -25,7 +24,7 @@ namespace FineAdmin.Repository
         /// </summary>
         public int Insert(T model)
         {
-            using (var conn =  dbContext.GetConnection())
+            using (var conn = DbContext<T>.GetConnection())
             {
                 return conn.Insert<T>(model);
             }
@@ -35,7 +34,7 @@ namespace FineAdmin.Repository
         /// </summary>
         public int UpdateById(T model)
         {
-            using (var conn = dbContext.GetConnection())
+            using (var conn = DbContext<T>.GetConnection())
             {
                 return conn.UpdateById<T>(model);
             }
@@ -45,7 +44,7 @@ namespace FineAdmin.Repository
         /// </summary>
         public int UpdateById(T model, string updateFields)
         {
-            using (var conn =  dbContext.GetConnection())
+            using (var conn = DbContext<T>.GetConnection())
             {
                 return conn.UpdateById<T>(model, updateFields);
             }
@@ -55,7 +54,7 @@ namespace FineAdmin.Repository
         /// </summary>
         public int DeleteById(int Id)
         {
-            using (var conn =  dbContext.GetConnection())
+            using (var conn = DbContext<T>.GetConnection())
             {
                 return conn.DeleteById<T>(Id);
             }
@@ -65,7 +64,7 @@ namespace FineAdmin.Repository
         /// </summary>
         public int DeleteByIds(object Ids)
         {
-            using (var conn = dbContext.GetConnection())
+            using (var conn = DbContext<T>.GetConnection())
             {
                 return conn.DeleteByIds<T>(Ids);
             }
@@ -75,7 +74,7 @@ namespace FineAdmin.Repository
         /// </summary>
         public int DeleteByWhere(string where)
         {
-            using (var conn =  dbContext.GetConnection())
+            using (var conn = DbContext<T>.GetConnection())
             {
                 return conn.DeleteByWhere<T>(where);
             }
@@ -86,7 +85,7 @@ namespace FineAdmin.Repository
         /// </summary>
         public IEnumerable<T> GetByPage(SearchFilter filter, out int total)
         {
-            using (var conn =  dbContext.GetConnection())
+            using (var conn = DbContext<T>.GetConnection())
             {
                 return conn.GetByPage<T>(filter.PageIndex, filter.PageSize, out total, filter.ReturnFields, filter.Where, filter.Param, filter.OrderBy, filter.Transaction, filter.CommandTimeout);
             }
@@ -96,7 +95,7 @@ namespace FineAdmin.Repository
         /// </summary>
         public IEnumerable<T> GetByPageUnite(SearchFilter filter, out int total)
         {
-            using (var conn =  dbContext.GetConnection())
+            using (var conn = DbContext<T>.GetConnection())
             {
                 return conn.GetByPageUnite<T>(filter.Prefix, filter.PageIndex, filter.PageSize, out total, filter.ReturnFields, filter.Where, filter.Param, filter.OrderBy, filter.Transaction, filter.CommandTimeout);
             }
@@ -107,7 +106,7 @@ namespace FineAdmin.Repository
         /// </summary>
         public IEnumerable<T> GetAll(string returnFields = null, string orderby = null)
         {
-            using (var conn =  dbContext.GetConnection())
+            using (var conn = DbContext<T>.GetConnection())
             {
                 return conn.GetAll<T>(returnFields, orderby);
             }
@@ -117,7 +116,7 @@ namespace FineAdmin.Repository
         /// </summary>
         public IEnumerable<T> GetByWhere(string where = null, object param = null, string returnFields = null, string orderby = null)
         {
-            using (var conn =  dbContext.GetConnection())
+            using (var conn = DbContext<T>.GetConnection())
             {
                 return conn.GetByWhere<T>(where, param, returnFields, orderby);
             }

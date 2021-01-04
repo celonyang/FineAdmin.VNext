@@ -19,7 +19,7 @@ namespace FineAdmin.Repository
         /// <returns></returns>
         public IEnumerable<ModuleModel> GetModuleListByRoleId(string sql, int roleId)
         {
-            using (var conn =  dbContext.GetConnection())
+            using (var conn = DbContext<ModuleModel>.GetConnection())
             {
                 sql += @" WHERE id in(SELECT a.ModuleId FROM roleauthorize a
                         INNER JOIN module b ON a.ModuleId = b.Id

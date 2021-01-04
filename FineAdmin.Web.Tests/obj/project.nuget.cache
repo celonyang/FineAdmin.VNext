@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fnMDZGKg3RTyht1X069NwYutV6V9CmH6Epry7KP+PCzYyoPD930ghi11izOlb4B08dftOOPAmnwv4RR6vRP1xA==",
+  "dgSpecHash": "9hiWGgLOJLPhpsJXNh4zCYoVc8YnpGTz7NA2wYVaHwTIAU4MYJGpBGQd44WjkOTnyBvTkxeqyDDJFMIqASCAMQ==",
   "success": true,
-  "projectFilePath": "G:\\VS\\VS框架\\自写框架\\FineAdmin\\FineAdmin.Web.Tests\\FineAdmin.Web.Tests.csproj",
+  "projectFilePath": "G:\\VS\\VS框架\\自写框架\\FineAdmin\\FineAdmin.VNext\\FineAdmin.Web.Tests\\FineAdmin.Web.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.codecoverage\\16.5.0\\microsoft.codecoverage.16.5.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",

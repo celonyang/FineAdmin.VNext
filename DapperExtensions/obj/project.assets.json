@@ -1105,11 +1105,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\VS\\VS框架\\自写框架\\FineAdmin\\DapperExtensions\\DapperExtensions.csproj",
+      "projectUniqueName": "G:\\VS\\VS框架\\自写框架\\FineAdmin\\FineAdmin.VNext\\DapperExtensions\\DapperExtensions.csproj",
       "projectName": "DapperExtensions",
-      "projectPath": "G:\\VS\\VS框架\\自写框架\\FineAdmin\\DapperExtensions\\DapperExtensions.csproj",
+      "projectPath": "G:\\VS\\VS框架\\自写框架\\FineAdmin\\FineAdmin.VNext\\DapperExtensions\\DapperExtensions.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "G:\\VS\\VS框架\\自写框架\\FineAdmin\\DapperExtensions\\obj\\",
+      "outputPath": "G:\\VS\\VS框架\\自写框架\\FineAdmin\\FineAdmin.VNext\\DapperExtensions\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",

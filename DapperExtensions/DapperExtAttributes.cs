@@ -36,4 +36,16 @@ namespace DapperExtensions
     {
 
     }
+    /// <summary>
+    /// 链接字符串
+    /// </summary>
+    [AttributeUsage(AttributeTargets.Class)]
+    public class ConnStringAttribute : Attribute
+    {
+        public string ConnName { get; set; }
+        public ConnStringAttribute(string ConnName)
+        {
+            this.ConnName = ConnName;
+        }
+    }
 }

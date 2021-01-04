@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YSBap5fTX72PpBa5u6ksEJSqh9ual2Th903V+UlkmQkQKFggtmBu/OD1k0lUDJINxoORwiFzfza/uovvxU1PkA==",
+  "dgSpecHash": "IgUY0OG2IcwhgcajRzl0lypXhB/J0P/muPZCqrqnwzwoUPbIZwXbptlESfnn++4jkCdsl26jV8/fr1WgwWbuJA==",
   "success": true,
-  "projectFilePath": "G:\\VS\\VS框架\\自写框架\\FineAdmin\\FineAdmin.Common\\FineAdmin.Common.csproj",
+  "projectFilePath": "G:\\VS\\VS框架\\自写框架\\FineAdmin\\FineAdmin.VNext\\FineAdmin.Common\\FineAdmin.Common.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
