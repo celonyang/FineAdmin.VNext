@@ -1,0 +1,24 @@
+[2021-01-23 10:45:02.2835] [Debug] [1 ] [FineAdmin.Web.Program.Main]---- init main
+[2021-01-23 10:45:27.2304] [Info] [1 ] [Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync]---- Now listening on: https://localhost:5001
+[2021-01-23 10:45:27.2304] [Info] [1 ] [Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync]---- Now listening on: http://localhost:5000
+[2021-01-23 10:45:27.2304] [Info] [1 ] [Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted]---- Application started. Press Ctrl+C to shut down.
+[2021-01-23 10:45:27.2521] [Info] [1 ] [Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted]---- Hosting environment: Development
+[2021-01-23 10:45:27.2521] [Info] [1 ] [Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted]---- Content root path: G:\VS\VS框架\自写框架\FineAdmin\FineAdmin.VNext\FineAdmin.Web
+[2021-01-23 10:45:29.4335] [Info] [6 ] [FineAdmin.Web.Controllers.LoginController.GetAuthCode]---- 获取验证码
+[2021-01-23 10:45:34.1710] [Info] [5 ] [FineAdmin.Web.Controllers.LoginController.GetAuthCode]---- 获取验证码
+[2021-01-23 10:45:38.6734] [Info] [6 ] [FineAdmin.Web.Controllers.LoginController.GetAuthCode]---- 获取验证码
+[2021-01-23 10:45:44.9309] [Info] [6 ] [FineAdmin.Web.Controllers.LoginController.GetAuthCode]---- 获取验证码
+[2021-01-23 10:45:57.1606] [Info] [5 ] [FineAdmin.Web.Controllers.LoginController.GetAuthCode]---- 获取验证码
+[2021-01-23 10:55:33.2596] [Debug] [1 ] [FineAdmin.Web.Program.Main]---- init main
+[2021-01-23 10:55:51.7253] [Info] [1 ] [Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted]---- Application started. Press Ctrl+C to shut down.
+[2021-01-23 10:55:51.7606] [Info] [1 ] [Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted]---- Hosting environment: Development
+[2021-01-23 10:55:51.7897] [Info] [1 ] [Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted]---- Content root path: G:\VS\VS框架\自写框架\FineAdmin\FineAdmin.VNext\FineAdmin.Web
+[2021-01-23 10:55:52.8101] [Info] [13 ] [FineAdmin.Web.Controllers.LoginController.GetAuthCode]---- 获取验证码
+[2021-01-23 10:55:57.6770] [Info] [8 ] [FineAdmin.Web.Controllers.LoginController.GetAuthCode]---- 获取验证码
+[2021-01-23 10:56:13.9348] [Info] [13 ] [FineAdmin.Web.Controllers.LoginController.GetAuthCode]---- 获取验证码
+[2021-01-23 10:59:22.2669] [Debug] [1 ] [FineAdmin.Web.Program.Main]---- init main
+[2021-01-23 10:59:46.9536] [Debug] [1 ] [FineAdmin.Web.Program.Main]---- init main
+[2021-01-23 11:00:04.6810] [Info] [1 ] [Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted]---- Application started. Press Ctrl+C to shut down.
+[2021-01-23 11:00:04.6967] [Info] [1 ] [Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted]---- Hosting environment: Development
+[2021-01-23 11:00:04.7500] [Info] [1 ] [Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted]---- Content root path: G:\VS\VS框架\自写框架\FineAdmin\FineAdmin.VNext\FineAdmin.Web
+[2021-01-23 11:00:05.7356] [Info] [4 ] [FineAdmin.Web.Controllers.LoginController.GetAuthCode]---- 获取验证码

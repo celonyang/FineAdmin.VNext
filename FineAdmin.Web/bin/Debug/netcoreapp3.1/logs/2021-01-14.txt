@@ -1,0 +1,1 @@
+[2021-01-14 23:53:36.6938] [Debug] [1 ] [FineAdmin.Web.Program.Main]---- init main

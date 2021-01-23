@@ -15,3 +15,4 @@ G:\VS\VS框架\自写框架\FineAdmin\FineAdmin.VNext\DapperExtensions\obj\Debug
 G:\VS\VS框架\自写框架\FineAdmin\FineAdmin.VNext\DapperExtensions\obj\Debug\netstandard2.0\DapperExtensions.csproj.CoreCompileInputs.cache
 G:\VS\VS框架\自写框架\FineAdmin\FineAdmin.VNext\DapperExtensions\obj\Debug\netstandard2.0\DapperExtensions.dll
 G:\VS\VS框架\自写框架\FineAdmin\FineAdmin.VNext\DapperExtensions\obj\Debug\netstandard2.0\DapperExtensions.pdb
+G:\VS\VS框架\自写框架\FineAdmin\FineAdmin.VNext\DapperExtensions\obj\Debug\netstandard2.0\DapperExtensions.csprojAssemblyReference.cache
